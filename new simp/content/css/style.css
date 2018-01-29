@@ -10,7 +10,7 @@
 
 .jumbotron{
 	background-color: #2ECC71;
-	background: #2ECC71 url(../../img/top.png) no-repeat center fixed; 
+	background: #2ECC71 url(../img/top.png) no-repeat center fixed; 
     background-size: cover;
 }
 
@@ -59,6 +59,8 @@
  .affix {
       top: 0;
       width: 100%;
+      background-color: #fff;
+      z-index: 10000;
   }
   .affix + .container-fluid {
       padding-top: 70px;
@@ -120,7 +122,7 @@
       padding-bottom: 70px;
   }
   
- .carousel-inner , .item, .item active, .carousel slide {
+ #Carousel2nd .carousel-inner , .item, .item active, .carousel slide {
   width:500px; 
   height:400px;
    }
