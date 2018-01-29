@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400);
+.slydify {
+position: relative;
+width: 100%;
+overflow: hidden;
+margin: 100px auto;
+padding: 0;
+font-family: 'Quicksand';
+list-style: none;
+}
+.slydify img {
+max-width: 100%;
+position: absolute;
+display: none;
+}
+.slydify .overlay {
+position: relative;
+z-index: 1000;
+}
+.slydify .overlay > div {
+position: absolute;
+opacity: 1;
+z-index: 1000;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+-webkit-backface-visibility : hidden;
+-moz-backface-visibility : hidden;
+-o-backface-visibility : hidden;
+-ms-backface-visibility : hidden;
+backface-visibility : hidden;
+}
+.slydify .side {
+margin: 0;
+display: block;
+position: absolute;
+-moz-backface-visibility : hidden;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.slydify #nav-next, .slydify #nav-prev {
+position: absolute;
+padding: 0;
+height: 36px;
+line-height: 36px;
+z-index: 10000;
+font-size: 18px;
+color: #FFFFFF;
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+opacity: 0;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-o-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+}
+.slydify:hover #nav-next, .slydify:hover #nav-prev, .slydify:hover #nav-radios {
+-webkit-transition: opacity 200ms;
+-moz-transition: opacity 200ms;
+-o-transition: opacity 200ms;
+-ms-transition: opacity 200ms;
+transition: opacity 200ms;
+}
+.slydify:hover #nav-next, .slydify:hover #nav-prev {
+opacity: 0.5;
+}
+.slydify #nav-next:hover, .slydify #nav-prev:hover {
+opacity: 1;
+}
+.slydify #nav-next {
+right: 10px;
+padding: 0 12px 0 14px;
+}
+.slydify #nav-prev {
+left: 10px;
+padding: 0 13px;
+}
+.slydify #nav-radios {
+position: absolute;
+bottom: 5px;
+height: 20px;
+width: 100%;
+text-align: center;
+opacity: 0;
+}
+.slydify:hover #nav-radios {
+opacity: 1;
+}
+.slydify .radio {
+margin: 2px 6px;
+display: inline-block;
+width: 9px;
+height: 9px;
+border-radius: 50%;
+border: 1px solid rgba(255, 255, 255, 0.5);
+cursor: pointer;
+}
+.slydify #nav-radios .current {
+background: #ffffff;
+border: 1px solid #ffffff;
+}
+.slydify .radio:hover {
+background: #ffffff;
+border: 1px solid #ffffff;
+}

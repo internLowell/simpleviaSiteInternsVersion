@@ -1,0 +1,65 @@
+.navbar,
+.jumbotron{
+	margin-bottom: 0px;
+	border-radius: 0;
+}
+
+.main-nav .navbar-brand{
+	color: #1ABCA6;
+}
+
+.jumbotron{
+	background-color: #2ECC71;
+	background: #2ECC71 url(../../img/top.png) no-repeat center fixed; 
+    background-size: cover;
+}
+
+.top-sec{
+	height: 800px;
+	padding-top: 500px;
+}
+
+.top-sec > .row{
+	height: 100%;
+	border: 3px solid #fff;
+}
+
+.hlf{
+	height: 100%;
+	margin: 0px auto auto auto;
+}
+
+.navbar-default{
+	background-color: inherit;
+}
+
+.top-sec{
+	padding: 100px;
+}
+
+.top-sec h3{
+	color: #fff;
+}
+
+.top-sec img{
+	width: 100%;
+}
+
+.top-sec .btn{
+	margin-top: 100px;
+}
+
+.logo-top{
+	margin: 200px
+}
+
+.well-lg{
+	height: 1200px;
+}
+ .affix {
+      top: 0;
+      width: 100%;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
