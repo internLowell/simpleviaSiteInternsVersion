@@ -89,20 +89,32 @@
       </div> <!-- /tiles -->
 
       <!-- about -->
-
-        <div id="About" class="container">
-          <div class="row">
-            <h2 class="page-header">About Us</h2>
+      <div id="about">
+        <div class="container">
+          <div class="row section">
+            <!-- <h2 class="page-header">About Us</h2>
             <p>Simplevia Technologies Inc. was founded by reputable IT individuals with a strong background in their respective fields.<br><br>
             Simplevia offers cutting-edge solutions to small-medium enterprises. We provide the simplest and most practical solutions to our clients without compromising perfomance.<br><br>
             Simplevia offers a wide range of services from data center solution, management and inventory systems through RFID technology, system development and so much more. We develop different solutions from simple systems such as asset tracking to much more complex ones such as cashless
             payment systems through NFC cards.<br><br>Our solution offering also extends to the whole telecom industry’s infrastructure value
             chain from In-Building Solutions (IBS) to outdoor construction, site acquisition services and
-            telecom implementaion.<br><br>Simplevia is rapidly gaining the confidence and trust of major enterprises by delivering the best solutions and allowing businesses to faster achieve their investment return and time to revenue.</p>
+            telecom implementaion.<br><br>Simplevia is rapidly gaining the confidence and trust of major enterprises by delivering the best solutions and allowing businesses to faster achieve their investment return and time to revenue.</p> -->
+            <img src="../content/img/about.png">
           </div>
         </div>
-        
+      </div>
         <!-- about -->
+
+        <!-- Solution -->
+      <div id="solutions">
+        <div class="container">
+          <div class="row section">
+            <h2>DATACENTER SOLUTIONS</h2>
+            <p>In Simplevia, we believe that everything can be simplified. We take pride in being able to come up with the best andmost practical solutions that will help our clients with their big data problems. We are always on the lookout for technologies that we can offer to our clients. We are committed to helping ourc ustomers adapt to the ever-growing and dynamic nature of the IT industry with simple yet powerful solutions. Over the years, Simplevia has acquired partnerships with leading technology solutions and platforms.</p>
+            <img src="../content/img/solutions.png">
+          </div>
+        </div>
+      </div>
 
 <div class="bg-1">
 	<div class="container text-center">
@@ -115,12 +127,6 @@
 	<hr> 
 
 	 <div id="Carousel2nd" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
     <!-- Wrapper for slides -->
    
@@ -133,10 +139,7 @@
       </div>
 
       <div class="item">
-        <p>The Adaptive Flash platform provides IT organizations with the ability to:</p>
-        <br>
-        <br>
-		<p> Speed the deployment and optimize the performance of business applications with pre-validated SmartStack reference architectures. Nimble SmartStack solutions consist of Nimble storage arrays and software integrated with technology partner compute, networking, and software technologies – optimized for specific workload environments.</p>
+        <p>The Adaptive Flash platform provides IT organizations with the ability to:</p><br><br><p> Speed the deployment and optimize the performance of business applications with pre-validated SmartStack reference architectures. Nimble SmartStack solutions consist of Nimble storage arrays and software integrated with technology partner compute, networking, and software technologies – optimized for specific workload environments.</p>
        
       </div>
     
@@ -151,11 +154,9 @@
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#Carousel2nd" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#Carousel2nd" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
@@ -164,6 +165,22 @@
  <hr>
 	</div>
 </div>
+
+<!-- Services -->
+<div id="services">
+  <div class="container">
+    <div class="row">
+      <h2>Services</h2>
+      <p>Our services cater to the telecom supply chain to provide clients with outstanding performance with the help of the latest tools and equipment.</p>
+      <div class="col-md-4">
+        <img src="../content/img/IBS.png">
+        <h4>In-Building Solutions (IBS)</h4>
+        <p>Simplevia provides customers with full in-building coverage services.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Services -->
 
 <!-- START VIVO -->
 		<div>
@@ -276,7 +293,9 @@
 					zipDuration: 350,
 					zipDelay: 50,
 					barsDuration: 400,
-					barsDelay: 40
+					barsDelay: 40,
+          // autoplay: true,
+          // autoplayTimeout: 500
 				});
 			});
 		</script>

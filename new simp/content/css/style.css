@@ -31,6 +31,7 @@
 
 .navbar-default{
 	background-color: inherit;
+  padding: 50px auto;
 }
 
 .top-sec{
@@ -62,11 +63,10 @@
       background-color: #fff;
       z-index: 10000;
   }
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
 
-
+.section{
+  margin: 100px auto;
+}
   /* Ange */
   body {
     color: #797979;
@@ -122,7 +122,9 @@
       padding-bottom: 70px;
   }
   
- #Carousel2nd .carousel-inner , .item, .item active, .carousel slide {
+ #Carousel2nd .carousel-inner , 
+  #Carousel2nd .item, .item active, 
+   #Carousel2nd .carousel slide {
   width:500px; 
   height:400px;
    }
@@ -131,7 +133,14 @@
    	
    }
 
+/*#about{
+  background-color: #34495e;
+  color: #fff;
+}*/
 
+.section img{
+  width: 100%;
+}
 /* Ange */
 
 /*VIVO*/
@@ -191,6 +200,8 @@
 .bg-gray{
   background: #f9f9f3;
 }
+
+
 
 @media only screen and (max-width: 650px) {
   .lead-text{
