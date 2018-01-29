@@ -63,3 +63,71 @@
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
+
+  /* Ange */
+  body {
+    color: #797979;
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 14px;
+}
+
+.h1, .h2 , .h3, .p{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.tile{
+    background-color: #eff0f2;
+    border-radius: 6px;
+    padding: 14px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    size: 10px;
+    height: 400px;
+
+}
+.img{
+	width: 100px;
+	height: 100px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.demo-tiles {
+    margin-bottom: 46px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 25px;
+    padding: 100px;
+    vertical-align: center;
+}
+.bg-1 { 
+      background-color: #F9F9F3; /* Green */
+    
+  }
+
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  
+ .carousel-inner , .item, .item active, .carousel slide {
+  width:500px; 
+  height:400px;
+   }
+   .carousel-indicators{
+   	vertical-align: right;
+   	
+   }
+
+
+/* Ange */
