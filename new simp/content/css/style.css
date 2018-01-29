@@ -131,3 +131,72 @@
 
 
 /* Ange */
+
+/*VIVO*/
+.links{
+  color: #e74c3c;
+}
+
+.icon-bg{
+  background: #f39c12;
+}
+
+.icon-wrap-1 {
+    font-size: 2em;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+.center-div{
+  margin: 0px auto;
+}
+
+.carousel-control{
+  background-image: none!important;
+  width: 10%!important;
+  opacity: 1!important;
+}
+
+.help-section{
+  padding: 145px 45px 145px 45px;
+}
+
+.lead-text{
+  font-size: 35px;
+}
+
+.small-text{
+  font-size: 22px;
+}
+
+.carousel-indicators li{
+  border: 1px solid #9a9a9a!important;
+}
+
+.carousel-indicators .active{
+  background: #9a9a9a!important;
+}
+
+.btn-orange{
+  background-color: #F39C12;
+  color: white;
+}
+
+.bg-gray{
+  background: #f9f9f3;
+}
+
+@media only screen and (max-width: 650px) {
+  .lead-text{
+    font-size: 24px;
+  }
+
+  .small-text{
+    font-size: 18px;
+  }
+}
+/*VIVO*/
