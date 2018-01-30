@@ -1,0 +1,30 @@
+
+.desc{
+  background-color: rgb(52, 73, 94);
+  height: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+.intro-note{
+  position:relative;
+  -webkit-animation: topNote 0.5s;
+  animation: topNote 0.5s
+}
+@-webkit-keyframes topNote{from{left:-300px;opacity:0}to{left:0;opacity:1}}
+@keyframes topNote{from{left:-300px;opacity:0}to{left:0;opacity:1}}
+
+.from-left{ position:relative; -webkit-animation:animateleft 1s; animation:animateleft 1.75s}
+@-webkit-keyframes animateleft{from{left:-300px;opacity:0}to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-300px;opacity:0}to{left:0;opacity:1}}
+.from-right{position:relative;-webkit-animation:animateright 1s;animation:animateright 1s}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.from-bottom{position:relative;-webkit-animation:animatebottom 1s;animation:animatebottom 0.75s}
+@-webkit-keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.from-top{position:relative;-webkit-animation:animatetop 1s;animation:animatetop 1s}
+@-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.-zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 1s}
+@-webkit-keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}

@@ -1,0 +1,141 @@
+header.jumbotron{
+	position: relative;
+	height: 720px;
+}
+.cover{
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(42, 187, 107, 0.5);
+	color: #fff;
+	padding-top: 200px;
+}
+header p{
+	letter-spacing: 10px;
+}
+.cover > * {
+	margin: 20px auto;
+}
+
+.cover > .btn{
+	margin-top: 45px;
+}
+
+.top-box{ 
+	height: 100px; 
+	width: 300px;  
+	overflow: hidden;
+}
+
+#about{
+	background-color: #e67e22
+}
+#about > div > div{
+	margin: 100px auto;
+}
+
+#about  h2{ 
+	letter-spacing: 10px;
+	margin-bottom: 20px;
+}
+#about p{ 
+	letter-spacing: normal; 
+	color: #333;
+}
+
+.about-note p{ 
+	font-size: 16pt;  
+}
+
+#about .btn-about{
+	background-color: none;
+	color: #fff;
+	border: 2px solid #fff;
+	margin-top: 50px;
+}
+
+
+.hlf{	
+	height: 100%;	
+	margin: -45px auto auto auto;
+}
+
+
+#section-1{
+	background-color: #eee;
+}
+#section-1 .row{
+	margin: 100px auto;
+}
+#section-1{
+	font-weight: normal;
+}
+
+
+
+.navbar-default{	background-color: inherit;  padding: 50px auto;}
+.navbar, .jumbotron{	margin-bottom: 0px;	border-radius: 0; }
+.main-nav .container-fluid{  margin: 25px auto;}
+.jumbotron{	background-color: #2ECC71; background: #2ECC71 url(../img/img6.jpg) no-repeat center fixed; 
+    background-size: cover; position: relative; padding-right: 0; margin-right: 0 ; overflow: hidden;}
+.affix { top: 0; width: 100%; background-color: #fff; z-index: 10000; }
+
+.on-top-1{
+	background-color: #f39c12;
+	border-radius: 30px;
+}
+.on-top-1 a{
+	color: #fff!important;
+}
+.affix .on-top-1{
+	background-color: inherit;
+}
+.affix .on-top-1 a{
+	color: #34495e !important;
+}
+
+.affix .on-top-1 a:hover{
+	color: #2ecc71 !important;
+}
+
+.off-top{
+	display: none !important;
+}
+.affix .off-top{
+	display: block !important;
+}
+
+
+#services .row{
+	margin-bottom: 30px;
+}
+
+
+#services .row > div .inner-tile{
+	margin: 0 10px;
+	background-color: #ecf0f1;
+}
+
+.inner-tile > p{
+	margin: 10px;
+	height: 100px;
+}
+/*
+#services img{
+	width: 100%;
+}
+*/
+#services{
+	text-align: center;
+}
+
+.services-header h3{
+	margin-top: 80px;
+	color: #2ecc71;
+}
+
+.services-header h4{
+	margin-bottom: 80px;
+	font-weight: normal
+}
