@@ -31,7 +31,9 @@ header p{
 #about{
 	background-color: #e67e22
 }
-#about > div > div{
+#about > div > div,
+#clients > div > div
+{
 	margin: 100px auto;
 }
 
@@ -107,8 +109,8 @@ header p{
 }
 
 
-#services .row{
-	margin-bottom: 30px;
+#services div div{
+	margin: 100px auto;
 }
 
 
@@ -145,3 +147,12 @@ header p{
 	padding: 20px;
 }
 
+footer{
+	margin-bottom: 0;
+	padding: 100px auto;
+	background-color: #ecf0f1
+}
+
+footer h6{
+	font-weight: normal;
+}
