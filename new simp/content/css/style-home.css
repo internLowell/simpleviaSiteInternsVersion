@@ -45,7 +45,7 @@ header p{
 }
 
 .about-note p{ 
-	font-size: 16pt;  
+	font-size: 16pt;
 }
 
 #about .btn-about{
@@ -139,3 +139,9 @@ header p{
 	margin-bottom: 80px;
 	font-weight: normal
 }
+
+#projects{
+	background-color: #34495e;
+	padding: 20px;
+}
+
