@@ -14,7 +14,7 @@ body{
   width: 80%;
   margin:auto;
   border-image-width: 100px;*/
-	background: url(untitled-1.jpg);
+	background: url(../img/quicktrack/untitled-1.jpg);
 	 min-height: 70%;
 	 background-attachment: fixed;
     background-position: center;
@@ -25,7 +25,7 @@ body{
 .botbg{
   
    
-    /*background: url(botbg.png);*/
+    /*background: url(../img/quicktrack/botbg.png);*/
     background-repeat: no-repeat;
     background-size: 2500px 500px;
     background-position: bottom; 
@@ -62,7 +62,7 @@ h1{
 
 .title{
  /*   margin-left: 10%;  */
-    background: url(title.png);
+    background: url(../img/quicktrack/title.png);
     width:100%;
 
 
@@ -71,7 +71,7 @@ h1{
 
 .title-xs{
        
-    background: url(title.png);
+    background: url(../img/quicktrack/title.png);
     position: absolute;
     height: 10px;
     width: 1140px;
