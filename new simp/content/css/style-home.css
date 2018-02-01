@@ -10,7 +10,6 @@ header,
 #projects .item{
 	height: 100vh;
 	width: 100%;
-	overflow-y: hidden
 }
 
 
@@ -49,13 +48,6 @@ NAVIGATION
 	font-weight: normal;
 }
 
-@media(min-width: 768px){
-	.on-top-1{
-		border: 1px solid #f39c12;
-		border-radius: 10px;
-	}
-}
-
 .off-top{
 	display: none !important;
 }
@@ -74,6 +66,7 @@ NAVIGATION
 
 .affix .on-top-1{
 	background-color: inherit;
+	border: none;
 	color: #34495e !important;
 }
 
@@ -161,7 +154,6 @@ SERVICES SECTION
 
 */
 
-
 #services .row > div .inner-tile{
 	margin: 0 10px;
 	background-color: #ecf0f1;
@@ -172,12 +164,8 @@ SERVICES SECTION
 	height: 100px;
 }
 
-#services{
-	text-align: center;
-}
-
-.services-header h3{
-	margin-top: 80px;
+.services-header h2{
+	margin-top: 100px;
 	color: #2ecc71;
 }
 
@@ -185,6 +173,13 @@ SERVICES SECTION
 	margin-bottom: 80px;
 	font-weight: normal;
 	font-size: 18pt;
+}
+
+
+#services .row .tile > p{
+	border: 2px dashed yellow;
+	height: 100%;
+	position: absolute;
 }
 
 #projects .carousel-inner .item{
@@ -196,7 +191,6 @@ SERVICES SECTION
 }
 
 #projects .carousel-inner .cover{
-	/*background-color: rgba(52, 152, 219,0.8);*/
 	background-color:  rgba(255,255,255,0.8);
 }
 
@@ -219,14 +213,15 @@ ABOUT SECTION
 #about > div > div,
 #clients > div > div
 {
-	margin: 100px auto;
+	margin: 150px auto;
 }
 
 #about  h2{ 
 	letter-spacing: 10px;
 	margin-bottom: 20px;
 }
-#about p{ 
+#about p{
+	margin-top: 45px;
 	letter-spacing: normal; 
 	color: #333;
 }
@@ -249,6 +244,9 @@ CLIENTS SECTION
 
 */
 
+#clients img{
+	width: 100%;
+}
 
 /*
 
@@ -257,14 +255,94 @@ FOOTER SECTION
 */
 
 footer{
-	background-color: #ecf0f1;
-	padding: 100px auto;
-	display: table;
-	width: 100%;
+	background-color: #34495e;
+	color: #fff;
+}
 
+footer div div{
+	margin: 100px auto;
 }
 
 footer h6{
 	font-weight: normal;
 }
 
+/*
+
+RWD Settings
+
+*/
+
+
+@media(max-width: 992px){
+
+	#services,
+	#about,
+	#clients{
+		height: auto;
+	}
+	#about > div > div,
+	#clients > div > div
+	{
+		margin: 50px auto;
+	}
+
+}
+
+@media(max-height: 385px){
+	.cover > h2{
+		margin-top: 15vh;
+		font-size: 24pt;
+	}
+
+	.cover > *{
+		font-size: 18pt;
+	}
+}
+
+@media(max-height: 450px){
+
+	.cover > h2{
+		margin-top: 20vh;
+	}
+
+	.cover > * {
+		margin-top: 0px;
+	}
+
+
+	.cover > .btn{
+		margin-top: 15px;
+	}
+
+}
+
+@media(max-height: 651px){
+
+	.cover{
+		padding-top: 0px !important;
+	}
+
+	.cover > *{
+		margin-top: 10vh;
+	}
+
+}
+
+@media(min-width: 768px){
+	
+	.on-top-1{
+		border: 1px solid #f39c12;
+		border-radius: 10px;
+	}
+	
+}
+
+@media(max-width: 768px){
+	
+	.main-nav .container-fluid{
+		margin-top: 2px;
+		margin-bottom:  2px;
+	}
+
+}
