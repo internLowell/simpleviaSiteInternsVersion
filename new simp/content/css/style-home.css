@@ -39,6 +39,15 @@ NAVIGATION
 	text-shadow: 3px 3px 5px #333;
 }
 
+.main-nav .navbar-brand > *{
+	float: left;
+}
+
+.main-nav .navbar-brand img{
+	height: 100%;
+	margin-right: 5px;
+}
+
 .main-nav .navbar-brand i{
 	color: #e67e22;
 }
@@ -187,15 +196,14 @@ SERVICES SECTION
 }
 
 #projects .carousel-caption{
-	color: #555 !important;
 }
 
 #projects .carousel-inner .cover{
-	background-color:  rgba(255,255,255,0.8);
+	background-color:  rgba(0,0,0,0.5);
 }
 
 #proj-1{
-	background: url(../img/img6.jpg) no-repeat center fixed;
+	background: url(../img/quick-bg.png) no-repeat center fixed;
 }
 #proj-2{
 	background: url(../img/img7.jpg) no-repeat center fixed;
@@ -335,7 +343,7 @@ RWD Settings
 		border: 1px solid #f39c12;
 		border-radius: 10px;
 	}
-	
+
 }
 
 @media(max-width: 768px){

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="shortcut icon" href="../content/img/favicon.png">
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 	<link rel="stylesheet" type="text/css" href="../content/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../content/css/animate.css">
@@ -21,7 +21,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span> 
 		      </button>
-		      <a class="navbar-brand" href="#">Simplevi<i>a</i></a>
+		      <a class="navbar-brand" href="#"><img src="../content/img/favicon.png"><div>Simplevi<i>a</i></div></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
@@ -79,8 +79,9 @@
 						<div id="proj-1" class="item active"><div class="cover">
 							<div class="container">
 								<div class="carousel-caption">
-									<h1>Quick Track</h1>
-									<p>Aenean a rutrum nulla. Vestibulum a arcu at nisi tristique pretium.</p>
+									<img src="../content/img/quicktrack.png">
+									<h1>RFID Asset Tracking and Inventory Management System</h1>
+									<p>A simple way to manage your business.</p>
 									<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
 								</div>
 							</div>
@@ -184,6 +185,12 @@
                     effects.init();
 
 			    $(".main-nav").affix({offset: {top: $("header").outerHeight(true)} });
+			    
+				$(function(){
+				    $('.carousel').carousel({
+				      interval: 2000
+				    });
+				});
 			});
 			$(function(){
 				window.myFlux = new flux.slider('#slider', {
@@ -191,11 +198,6 @@
 					transitions: ['blocks2'],
 					delay: 3000
 				});
-			});
-			$(function(){
-			    $('.carousel').carousel({
-			      interval: 2000
-			    });
 			});
 
 			$("#clients div div div img").addClass("effects zoomIn");
