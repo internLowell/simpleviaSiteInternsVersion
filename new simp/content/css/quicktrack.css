@@ -1,0 +1,217 @@
+
+body{
+  background-color: #e5e0e0;
+}
+.cov{
+  /*background: linear-gradient(#ADE3F9, rgba(255,255,255,0.5));
+  
+  background-repeat: no-repeat;
+  background-size: 2500px 500px;
+  background-position: top right; 
+  position: absolute;
+  top: 0; left: 0;
+  height:2500px;
+  width: 80%;
+  margin:auto;
+  border-image-width: 100px;*/
+	background: url(untitled-1.jpg);
+	 min-height: 70%;
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.botbg{
+  
+   
+    /*background: url(botbg.png);*/
+    background-repeat: no-repeat;
+    background-size: 2500px 500px;
+    background-position: bottom; 
+    height: 900px;
+ 
+   
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+/*.display-middle{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}*/
+p{
+	 
+  
+  
+  text-indent: 30px;
+  /*text-align: center;*/
+ 
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	color: gray;
+	font-size: 30px;
+}
+
+.title{
+ /*   margin-left: 10%;  */
+    background: url(title.png);
+    width:100%;
+
+
+   /* padding: 10%;*/
+}
+
+.title-xs{
+       
+    background: url(title.png);
+    position: absolute;
+    height: 10px;
+    width: 1140px;
+   /* margin-right: 10%;  */
+}
+/*.animation2:hover .overlay {
+  width: 80%;
+}
+.overlay {
+  position: absolute;
+  margin-top: 40px;
+  padding-top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #c1bbbb;
+  overflow: hidden;
+  width: 0;
+  height: 90%;
+  transition: .5s ease;
+}*/
+.image {
+  /*display: block;
+  width: 60%;
+  height: 50%;*/
+  position:center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+/*.image-right{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}*/
+
+/*.overlay-right {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 90%;
+  transition: .5s ease;
+}
+
+.animation1:hover .overlay-right {
+  width: 100%;
+  left: 0;
+}*/
+.bgtext{
+	
+	margin-top: 50px;
+}
+
+.asset:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/*.color{
+	background-color: #d3d1d1;
+}*/
+
+/*.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+ background-color:#fff;}*/
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    /*width:200px;*/
+    height:300px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+    background-color: white;
+}
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+
+}
+
+
+  -webkit-animation: FontBulge 1s;
+  -moz-animation: FontBulge 1s;
+}
+@-webkit-keyframes FontBulge {
+  0% {
+    font-size: 60px;
+  }
+  20% {
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+  55% {
+    font-size: 55px;
+    letter-spacing: -5px;
+    }
+  80% {
+    font-size: 70px;
+    letter-spacing: 2px;
+  }
+  100% {
+    font-size: 60px;
+  }
+}
+
+
+
