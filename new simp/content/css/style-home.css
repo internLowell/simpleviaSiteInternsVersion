@@ -1,7 +1,118 @@
+/*
+
+GENERAL SETTINGS
+
+*/
+
+
+section,
+header,
+#projects .item{
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden
+}
+
+
+
+/*
+
+NAVIGATION
+
+*/
+
+
+.navbar-default{
+	background-color: rgba(0,0,0,0);
+}
+
+.navbar, .jumbotron{
+	margin-bottom: 0px;
+	border-radius: 0;
+}
+
+.main-nav .container-fluid{
+	margin: 25px auto;
+}
+
+.main-nav .navbar-brand{
+	color: #2ecc71;
+	text-shadow: 3px 3px 5px #333;
+}
+
+.main-nav .navbar-brand i{
+	color: #e67e22;
+}
+
+.main-nav .nav li a{
+	color: #fff;
+	font-weight: normal;
+}
+
+@media(min-width: 768px){
+	.on-top-1{
+		border: 1px solid #f39c12;
+		border-radius: 10px;
+	}
+}
+
+.off-top{
+	display: none !important;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 10000;
+}
+
+.main-nav .navbar-brand{
+	color: #2ecc71;
+	text-shadow: none;
+}
+
+.affix .on-top-1{
+	background-color: inherit;
+	color: #34495e !important;
+}
+
+.affix .nav li a{
+	color: #34495e;
+	font-weight: normal;
+}
+
+.affix .on-top-1 a:hover{
+	color: #2ecc71 !important;
+}
+
+.affix .off-top{
+	display: block !important;
+}
+
+
+
+/*
+
+TOP SECTION
+
+*/
+
 header.jumbotron{
 	position: relative;
-	height: 720px;
+	background-color: #2ECC71;
+	background: #2ECC71 url(../img/img6.jpg) no-repeat center fixed; 
+    background-size: cover; 
+    position: relative;
+    padding-right: 0;
+    margin-right: 0 ;
+    overflow: hidden;
 }
+
+header p{
+	letter-spacing: 10px;
+}
+
 .cover{
 	position: absolute;
 	top: 0; left: 0;
@@ -11,9 +122,11 @@ header.jumbotron{
 	color: #fff;
 	padding-top: 200px;
 }
-header p{
-	letter-spacing: 10px;
+
+.cover > h2{
+	margin-top: 20vh;
 }
+
 .cover > * {
 	margin: 20px auto;
 }
@@ -22,11 +135,83 @@ header p{
 	margin-top: 45px;
 }
 
-.top-box{ 
-	height: 100px; 
-	width: 300px;  
-	overflow: hidden;
+
+
+/*
+
+WELCOME SECTION
+
+*/
+
+
+#welcome-sec{
+	background-color: #eee;
 }
+#welcome-sec .row{
+	margin: 100px auto;
+}
+#welcome-sec{
+	font-weight: normal;
+}
+
+
+/*
+
+SERVICES SECTION
+
+*/
+
+
+#services .row > div .inner-tile{
+	margin: 0 10px;
+	background-color: #ecf0f1;
+}
+
+.inner-tile > p{
+	margin: 10px;
+	height: 100px;
+}
+
+#services{
+	text-align: center;
+}
+
+.services-header h3{
+	margin-top: 80px;
+	color: #2ecc71;
+}
+
+.services-header h4{
+	margin-bottom: 80px;
+	font-weight: normal;
+	font-size: 18pt;
+}
+
+#projects .carousel-inner .item{
+	background-size: cover;
+}
+
+#projects .carousel-caption{
+	color: #555 !important;
+}
+
+#projects .carousel-inner .cover{
+	/*background-color: rgba(52, 152, 219,0.8);*/
+	background-color:  rgba(255,255,255,0.8);
+}
+
+#proj-1{
+	background: url(../img/img6.jpg) no-repeat center fixed;
+}
+#proj-2{
+	background: url(../img/img7.jpg) no-repeat center fixed;
+}
+
+/*
+
+ABOUT SECTION
+
+*/
 
 #about{
 	background-color: #e67e22
@@ -58,101 +243,28 @@ header p{
 }
 
 
-.hlf{	
-	height: 100%;	
-	margin: -45px auto auto auto;
-}
-
-
-#section-1{
-	background-color: #eee;
-}
-#section-1 .row{
-	margin: 100px auto;
-}
-#section-1{
-	font-weight: normal;
-}
-
-
-
-.navbar-default{	background-color: inherit;  padding: 50px auto;}
-.navbar, .jumbotron{	margin-bottom: 0px;	border-radius: 0; }
-.main-nav .container-fluid{  margin: 25px auto;}
-.jumbotron{	background-color: #2ECC71; background: #2ECC71 url(../img/img6.jpg) no-repeat center fixed; 
-    background-size: cover; position: relative; padding-right: 0; margin-right: 0 ; overflow: hidden;}
-.affix { top: 0; width: 100%; background-color: #fff; z-index: 10000; }
-
-.on-top-1{
-	background-color: #f39c12;
-	border-radius: 30px;
-}
-.on-top-1 a{
-	color: #fff!important;
-}
-.affix .on-top-1{
-	background-color: inherit;
-}
-.affix .on-top-1 a{
-	color: #34495e !important;
-}
-
-.affix .on-top-1 a:hover{
-	color: #2ecc71 !important;
-}
-
-.off-top{
-	display: none !important;
-}
-.affix .off-top{
-	display: block !important;
-}
-
-
-#services div div{
-	margin: 100px auto;
-}
-
-
-#services .row > div .inner-tile{
-	margin: 0 10px;
-	background-color: #ecf0f1;
-}
-
-.inner-tile > p{
-	margin: 10px;
-	height: 100px;
-}
 /*
-#services img{
-	width: 100%;
-}
+
+CLIENTS SECTION
+
 */
-#services{
-	text-align: center;
-}
 
-.services-header h3{
-	margin-top: 80px;
-	color: #2ecc71;
-}
 
-.services-header h4{
-	margin-bottom: 80px;
-	font-weight: normal
-}
+/*
 
-#projects{
-	background-color: #34495e;
-	padding: 20px;
-}
+FOOTER SECTION
+
+*/
 
 footer{
-	margin-bottom: 0;
+	background-color: #ecf0f1;
 	padding: 100px auto;
-	background-color: #ecf0f1
+	display: table;
+	width: 100%;
+
 }
 
 footer h6{
 	font-weight: normal;
 }
+

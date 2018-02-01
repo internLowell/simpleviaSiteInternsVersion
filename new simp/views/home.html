@@ -4,20 +4,16 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Latest compiled and minified CSS -->
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 	<link rel="stylesheet" type="text/css" href="../content/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../content/css/animate.css">
-	<!-- <link rel="stylesheet" type="text/css" href="../content/css/slider.css"> 
-	<link rel="stylesheet" type="text/css" href="../content/css/slydify.css"> -->
 	<link href="../content/css/flat-ui.css" rel="stylesheet">
-	<!-- <link href="../content/css/style.css" rel="stylesheet"> -->
 	<link href="../content/css/style-home.css" rel="stylesheet">
 
 	<title>Simplevia</title>
 </head>
 	<body>
-		<nav class="navbar navbar-default  main-nav">
+		<nav class="navbar navbar-default navbar-fixed-top main-nav wow slideInDown">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -25,7 +21,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span> 
 		      </button>
-		      <a class="navbar-brand" href="#">Simplevia</a>
+		      <a class="navbar-brand" href="#">Simplevi<i>a</i></a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav navbar-right">
@@ -41,47 +37,65 @@
 		</nav>
 		<header class="jumbotron text-center">
 			<div class="cover">
-				<h2>Simplifying IT Solution</h2>
-				<p>CREATE . SECURE . EXPLORE</p>
-				<a class="btn btn-top btn-hg btn-embossed btn-primary" href="#">Learn more</a>
+				<h2 class="wow flipInX">Simplifying IT Solution</h2>
+				<p class="wow 	zoomIn">CREATE . SECURE . EXPLORE</p>
+				<a class="btn btn-top btn-hg btn-embossed btn-primary wow rollIn" href="#">Learn more</a>
 			</div>
 		</header>
-		<div id="section-1">
+		<div id="welcome-sec">
 			<div class="container">
-				<div class="row">
+				<div class="row wow rubberBand">
 					<h3 class="text-center">We believe that everything can be simplified. We take pride in being able to come up with the best and most practical solutions that will help our clients with their big data problems.</h3>
 				</div>
 			</div>
 		</div>
-		<div id="services">
-			<div class="container">
+		<section id="services">
+			<!-- <div class="container">
 				<div class="services-header">
 					<h3>Recent Projects</h3>
-					<h4>We are always on the lookout for technologies that we can offer to our clients. We are committed to helping our customers adapt to the ever-growing and dynamic nature of the IT industry with simple yet powerful solutions. Over the years, Simplevia has acquired partnerships with leading technology solutions and platforms.</h4>
+					<h4>We are always on the lookout for technologies that we can offer to our clients. We are committed to helping our customers adapt to the ever-growing and dynamic nature of the IT industry with simple yet powerful solutions.</h4>
 				</div>
-				<div id="projects">
-					<a href="#">
-						<div class="proj-img"></div>
-						<div class="proj-desc">
-							<h4>QuickTrack</h4>
-							<p>RFID Asset Tracking and Inventory Management System</p>
+			</div> -->
+			<div id="projects">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel"> 				  
+						<div class="carousel-inner">
+							<div id="proj-1" class="item active"><div class="cover">
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>Quick Track</h1>
+										<p>Aenean a rutrum nulla. Vestibulum a arcu at nisi tristique pretium.</p>
+										<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+									</div>
+								</div>
+							</div></div>
+							<div id="proj-2" class="item"><div class="cover">
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>Schuler Track</h1>
+										<p>Aenean a rutrum nulla. Vestibulum a arcu at nisi tristique pretium.</p>
+										<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+									</div>
+								</div></div>
+							</div>
 						</div>
-					</a>
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+
+					</div>
 				</div>	
-			</div>
-		</div>
-		 <div id="about">
+		</section>
+		 <section id="about">
 	        <div class="container">
 	        	<div class="row">
 			          <h2>About Us</h2>
 					<div class="col-md-6">
 			          <div class="about-note">
 			            <p>Simplevia Technologies Inc. was founded by reputable IT individuals with a strong background in their respective fields. Simplevia offers cutting-edge solutions to small-medium enterprises. <!-- We provide the simplest and most practical solutions to our clients without compromising perfomance from simple systems such as asset tracking to much more complex ones such as cashless payment systems through NFC cards. <br>Our solution offering also extends to the whole telecom industry’s infrastructure value chain from In-Building Solutions (IBS) to outdoor construction, site acquisition services and telecom implementaion. Simplevia is rapidly gaining the confidence and trust of major enterprises by delivering the best solutions and allowing businesses to faster achieve their investment return and time to revenue. --></p>
-			            <a href="#" class="btn btn-hg btn-about">Learn more</a>
+			            <a href="#" class="btn btn-hg btn-about wow bounceInRight">Learn more</a>
 		            </div>
 				</div>
 				<div class="col-md-6 hidden-sm hidden-xs">
-					<div id="slider">
+					<div id="slider" class="wow bounceInDown">
 						<img src="../content/img/img4.jpg">
 						<img src="../content/img/img5.jpg">
 						<img src="../content/img/img6.jpg">
@@ -89,26 +103,30 @@
 				</div> 
 	          </div>
 	        </div>
-	      </div>
-
-	      <div id="clients">
+	      </section>
+	      <section id="clients">
 	      	<div class="container">
 	      		<div class="row">
-	      			<h2 class="text-center">Our Clients</h2>
-	      			<img src="../content/img/clients/clients.png" width="100%">
+	      			<h2 class="text-center  wow tada">Our Clients</h2>
+	      			<!-- <img src="../content/img/clients/clients.png" width="100%"> -->
 	      		</div>
 	      	</div>
-	      </div>
-	      <footer class="text-center">
+	      </section>
+
+	      <footer class="text-center footer">
 	    	<h6>&copy; 2018. All rights reserved</h6>
 	      </footer>
 
 		<script type="text/javascript" src="../content/js/jquery.js"></script>
 		<script type="text/javascript" src="../content/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../content/js/flat-ui.js"></script>
 		<script type="text/javascript" src="../content/js/slider.js"></script>
 		<!-- <script type="text/javascript" src="../content/js/slydify.js"></script> -->
+		<script src="../content/js/wow.min.js"></script>
 		<script>
 			$(document).ready(function(){
+				new WOW().init();
+
 			    $(".main-nav").affix({offset: {top: $("header").outerHeight(true)} });
 			});
 			$(function(){
@@ -118,7 +136,11 @@
 					delay: 3000
 				});
 			});
-
+			$(function(){
+			    $('.carousel').carousel({
+			      interval: 2000
+			    });
+			});
 
 			
 		</script>
