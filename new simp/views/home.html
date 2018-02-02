@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="../content/img/favicon.png">
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../content/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../content/css/animate.css">
-	<link href="../content/css/flat-ui.css" rel="stylesheet">
+	<!-- <link href="../content/css/flat-ui.css" rel="stylesheet"> -->
 	<link href="../content/css/style-home.css" rel="stylesheet">
 
 	<title>Simplevia</title>
@@ -16,16 +17,16 @@
 		<nav class="navbar navbar-default navbar-fixed-top main-nav effects slideInDown">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainbar">
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span> 
 		      </button>
 		      <a class="navbar-brand" href="#"><img src="../content/img/favicon.png"><div>Simplevi<i>a</i></div></a>
 		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
+		    <div class="collapse navbar-collapse" id="mainbar">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li class="active off-top"><a href="#">Home</a></li>
+		        <li class="off-top"><a href="#mainbar">Home</a></li>
 		        <li class="off-top"><a href="#services">Services</a></li> 
 		        <li class="on-top-1"><a href="#about">About</a></li>
 		        <li class="off-top"><a href="#clients">Partners</a></li> 
@@ -37,36 +38,36 @@
 		<header class="jumbotron text-center">
 			<div class="cover">
 				<h2 class="effects flipInX">Simplifying IT Solution</h2>
-				<p class="effects 	zoomIn">CREATE . SECURE . EXPLORE</p>
-				<a class="btn btn-top btn-hg btn-embossed btn-primary effects rollIn" href="#">Learn more</a>
+				<p class="effects zoomIn">CREATE . SECURE . EXPLORE</p>
+				<a class="btn btn-hg effects slideInDown infinite" href="#services"><i class="fa fa-angle-down"></i></a>
 			</div>
 		</header>
 		<div id="welcome-sec">
 			<div class="container">
-				<div class="row effects rubberBand">
-					<h3 class="text-center">We believe that everything can be simplified. We take pride in being able to come up with the best and most practical solutions that will help our clients with their big data problems.</h3>
+				<div class="row"><i class="fa fa-quote-left"></i>
+					<h2 class="text-center effects flipInX">We believe that everything can be simplified. We take pride in being able to come up with the best and most practical solutions that will help our clients with their big data problems.</h2>
 				</div>
 			</div>
 		</div>
 		<section id="services">
 			<div class="container">
-				<div class="services-header text-center effects bounce">
-					<h2>Projects</h3>
-					<h4>We are always on the lookout for technologies that we can offer to our clients. We are committed to helping our customers adapt to the ever-growing and dynamic nature of the IT industry with simple yet powerful solutions.</h4>
+				<div class="services-header text-center">
+					<h1 class="effects slideInDown">PROJECTS</h1>
+					<h4 class="effects slideInUp">We are always on the lookout for technologies that we can offer to our clients. We are committed to helping our customers adapt to the ever-growing and dynamic nature of the IT industry with simple yet powerful solutions.</h4>
 				</div>
 				<div class="row">
 					<div class="col-sm-4 text-center effects slideInLeft">
-						<img src="../content/img/Retina-Ready.png" alt="Lower Costs">
+						<h1 class="fa fa-credit-card" style="font-size: 72pt"></h1>
 						<h3>Lower Costs</h3>
 			            <p class="text-justify">The solutions we provide will greatly reduce your overall CapEx and OpEx. Also, depending on the solution that you need, Simplevia can deploy and install it without the added implementation costs.</p>
 					</div>
 					<div class="col-sm-4 text-center effects zoomIn">
-						<img src="../content/img/Pensils.png" alt="Skills">
+						<h1 class="fa fa-terminal" style="font-size: 72pt"></h1>
 						<h3>Skills</h3>
 						<p class="text-justify">Simplevia is devoted to bringing the best solutions to all clients. In order to do that, we make sure that every one of us is highly adept and proficient in everything we do.</p>
 					</div>
 					<div class="col-sm-4 text-center effects slideInRight">
-						<img src="../content/img/Watches.png" alt="Customer Focus" >
+						<h1 class="fa fa-thumbs-o-up" style="font-size: 72pt"></h1>
 						<h3>Customer Focus</h3>
 			            <p class="text-justify">It is our goal that our customers have the best experience with the solutions that they get. We see to it that all concerns of our clients be addressed by our account managers and technical support within the day. </p>
 					</div>
@@ -93,8 +94,17 @@
 									<p>Aenean a rutrum nulla. Vestibulum a arcu at nisi tristique pretium.</p>
 									<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
 								</div>
-							</div></div>
-						</div>
+							</div>
+						</div></div>
+						<div id="proj-3" class="item"><div class="cover">
+							<div class="container">
+								<div class="carousel-caption">
+									<h1>Nimble Storage</h1>
+									<p>Aenean a rutrum nulla. Vestibulum a arcu at nisi tristique pretium.</p>
+									<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+								</div>
+							</div>
+						</div></div>
 					</div>
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
 					<a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
@@ -103,10 +113,9 @@
 			</div>	
 		 <section id="about">
 	        <div class="container">
-	        	<div class="row">
-			         
+	        	<div class="row"> 
+					<h1>About Us</h1>
 					<div class="col-md-6">
-						 <h2>About Us</h2>
 			          <div class="about-note">
 			            <p>Simplevia Technologies Inc. was founded by reputable IT individuals with a strong background in their respective fields. Simplevia offers cutting-edge solutions to small-medium enterprises. <!-- We provide the simplest and most practical solutions to our clients without compromising perfomance from simple systems such as asset tracking to much more complex ones such as cashless payment systems through NFC cards. <br>Our solution offering also extends to the whole telecom industry’s infrastructure value chain from In-Building Solutions (IBS) to outdoor construction, site acquisition services and telecom implementaion. Simplevia is rapidly gaining the confidence and trust of major enterprises by delivering the best solutions and allowing businesses to faster achieve their investment return and time to revenue. --></p>
 			            <a href="#" class="btn btn-hg btn-about effects bounceInRight">Learn more</a>
@@ -125,7 +134,7 @@
 	      <section id="clients">
 	      	<div class="container">
 	      		<div class="row">
-	      			<h2 class="text-center  effects tada">Our Clients</h2>
+	      			<h1 class="text-center  effects flipInX">Our Clients</h1>
 	      			<!-- <img src="../content/img/clients/clients.png" width="100%"> -->
 	      			<div class="col-sm-3 col-xs-4">
 		      			<img src="../content/img/clients/com1.png">
@@ -175,16 +184,16 @@
 			$(document).ready(function(){
 				effects = new WOW(
                       {
-                      boxClass:     'effects',      // default
-                      animateClass: 'animated', // default
-                      offset:       0,          // default
-                      mobile:       true,       // default
-                      live:         true        // default
+                      boxClass:     'effects',
+                      animateClass: 'animated', 
+                      offset:       0, 
+                      mobile:       true,
+                      live:         true  
                     }
                     )
                     effects.init();
 
-			    $(".main-nav").affix({offset: {top: $("header").outerHeight(true)} });
+			    $(".main-nav").affix({offset: {top: $(".cover").outerHeight(true)} });
 			    
 				$(function(){
 				    $('.carousel').carousel({
